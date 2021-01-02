@@ -2,7 +2,7 @@
    <div class="slideshow-container">
     
         
-    <img src="@/assets/plumping1.jpg">
+    <img src="@/assets/img1.jpg">
     <br>
 
     <!-- <img :src='require(`../assets/${img2}`)' > -->

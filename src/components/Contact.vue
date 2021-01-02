@@ -1,7 +1,7 @@
 <template>
    <div class="contact-container">
         <div>
-            <h3>We Are Your Go To Denver, Loveland, Northern Colorado Plumbing, Heating, and Cooling / HVAC Service</h3>
+            <h2 id="white">We Are Your Go To Denver, Loveland, Northern Colorado Plumbing, Heating, and Cooling / HVAC Service</h2>
             <h2>Family Owned & Operated</h2>
             <h4>WE GUARANTEE OUR WORKMANSHIP & MATERIALS  <br>  LICENSED AND INSURED</h4>
         </div>
@@ -28,6 +28,9 @@ h3, h4  {
 }
 h2{
   color: yellow;
+}
+#white{
+  color: white;
 }
 
 

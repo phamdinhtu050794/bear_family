@@ -1,6 +1,6 @@
 <template>
   <div class="body-container">
-
+    <div class="body-center">
       <SlideShow></SlideShow>
       <Cleaning></Cleaning>
       <Call></Call>
@@ -9,6 +9,7 @@
       <hr>
       <Contact></Contact>
       <Select></Select>
+      </div>
   
   </div>
 </template>
@@ -42,5 +43,19 @@ export default {
 
 hr{
     color: white;
+}
+
+.body-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  padding: 10%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+hr{
+  
+  width: 100%;
 }
 </style>

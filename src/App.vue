@@ -4,7 +4,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div> -->
-    <Header></Header>
+    <Header></Header> <br>
     <router-view/>
     <Footer></Footer>
   </div>
@@ -33,6 +33,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: black;
 }
 
 #nav {
@@ -47,4 +48,5 @@ export default {
     }
   }
 }
+
 </style>

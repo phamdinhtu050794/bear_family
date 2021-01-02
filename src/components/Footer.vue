@@ -1,20 +1,25 @@
 <template>
   <div class="footer-container">
       <div class="ui-footer">
-           <pre><h5> Home | </h5></pre> 
-           <pre><h5> General Plumbing | </h5></pre> 
-           <pre><h5> Residential Plumbing | </h5></pre> 
-          <pre><h5> HVAC | </h5></pre> 
-          <pre><h5> About Us | </h5></pre> 
-          <pre><h5> Our News | </h5></pre> 
-          <pre><h5> Our Testimonials | </h5></pre> 
-          <pre><h5> Contact Us  </h5></pre>
+           
+      
+        <h4><a href="#">Home | </a></h4> 
+        <h4><a href="#">General Plumbing | </a></h4> 
+        <h4><a href="#"> Residential Plumbing  | </a></h4> 
+        <h4><a href="#">HVAC | </a></h4> 
+        <h4><a href="#">About Us | </a></h4> 
+        <h4><a href="#">Our News | </a></h4> 
+        <h4><a href="#"> Our Testimonials | </a></h4> 
+        <h4><a href="#">Contact Us </a></h4> 
+      
+      
+    
       </div>
       <div>
           <h5>Copyright Bears Family P.H.C. © 2016. All Rights Reserved.</h5>
       </div>
       <div>
-          <h5>Designed by Jsay Designs, LLC.</h5>
+          <h5>Designed by <a href="#">Jsay Designs, LLC.</a></h5>
       </div>
   </div>
 </template>
@@ -40,6 +45,11 @@ export default {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+.ui-footer a{
+   color: blue;
+  //    color: #FFFFFF;
+  text-decoration: none;
 }
 
 </style>

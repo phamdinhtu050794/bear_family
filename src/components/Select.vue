@@ -1,8 +1,8 @@
 <template>
   <div class="select-container">
-        <img src="@/assets/select1.jpg" width="300" height="300" >
-        <img src="@/assets/select2.png" width="300" height="300" >
-        <img src="@/assets/select3.jpg" width="300" height="300" >
+       <a href="#" ><img src="@/assets/plumbing5.jpg"  ></a>
+       <a href="#" > <img src="@/assets/heating.jpg"  ></a>
+       <a href="#" > <img src="@/assets/contact.jpg"  ></a>
   </div>
 </template>
 
